@@ -17,6 +17,8 @@ alias ll "ls -l"
 alias lla "ll -A"
 alias gst "git status"
 alias g git
-command -qv nvim && alias vim nvim
+# command -qv nvim && alias vim nvim
 
 set -gx EDITOR nvim
+
+kubectl completion fish | source
